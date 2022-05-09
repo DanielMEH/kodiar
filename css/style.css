@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(90deg,rgb(5, 125, 134),rgb(13, 86, 149));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container{
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.457);
+    backdrop-filter: blur(2px);
+    z-index: 200;
+}
+
