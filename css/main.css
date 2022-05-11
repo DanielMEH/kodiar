@@ -1,0 +1,15 @@
+.container_main{
+    display: grid;
+    grid-template-columns: 550px auto;
+    max-width: 1400px;
+    margin: 3rem auto;
+    gap: 2rem;
+}
+
+.registro_product h2{
+    
+    background: #1aa7f8;
+    color: white;
+    text-align: center;
+    padding: 0.620rem;
+}
