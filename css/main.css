@@ -1,6 +1,6 @@
 .container_main{
     display: grid;
-    grid-template-columns: 550px auto;
+    grid-template-columns: 450px auto;
     max-width: 1400px;
     margin: 3rem auto;
     gap: 2rem;
