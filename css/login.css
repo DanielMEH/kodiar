@@ -19,6 +19,7 @@ body{
     font-size: 2rem;
     margin: 0 2rem;
     font-weight: bold;
+    padding: 6px;
 }
 
 .container{
@@ -85,26 +86,29 @@ max-width: 500px;
     border-radius:10px;
     overflow: hidden;
     padding:0 0 2rem;
+    box-shadow: 0px 0px 7px 8px rgb(231, 231, 231);
 
 
 }
 .login-title{
     background:#1aa7f8;
-    padding: 10px;
+    padding: 15px 0px;
     width: 100%;
     display: block;
     color:white;
     border-color:10px solid black;
+    letter-spacing:0.10rem;
 }
   .input-field {
     background-color: #f0f0f0;
     margin: 10px 0;
     background-color:white;
-    border-radius: 20px;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: 15% 85%;
     position: relative;
     margin: 2rem 1rem;
+    border:none;
   }
   .outline{
       outline:none;
@@ -121,6 +125,8 @@ max-width: 500px;
     font-weight: 600;
     font-size: 1.1rem;
     color: #333;
+    outline: none;
+
   }
   .login-button{
       background:#1aa7f8;
@@ -129,7 +135,14 @@ max-width: 500px;
       color:rgb(255, 255, 255);
       font-weight:bold;
       margin:0 0 15px;
-      padding:5px;
+      padding:7px;
+      letter-spacing:0.10rem;
+      cursor: pointer;
+
+  }
+  .login-button:hover{
+    
+      opacity: 0.90;
   }
 
   
