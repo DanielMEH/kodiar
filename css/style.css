@@ -68,6 +68,18 @@ body{
    transition: all .2s ease-in;
   
 }
+.list > li > .agre_active::before{
+    
+    background:var(--color-text);
+    content: "";
+    width: 100%;
+    height: 0.187rem;
+    border-radius: 2rem;
+    bottom: 0;
+    position: absolute;
+    transition: all .2s ease-in;
+   
+ }
 .list > li > a:hover::before{
     width: 100%;
 }
