@@ -44,37 +44,37 @@
 
 
 .despensa{
-    background-image: linear-gradient(90deg,#74747481,rgba(117, 117, 117, 0.507)),url("../categorias/image/2011.i003.013_shopping\ bag\ basket\ zero\ waste\ eco\ illustration.jpg");
+    background-image: linear-gradient(90deg,#74747463,#75757565),url("../categorias/image/2011.i003.013_shopping\ bag\ basket\ zero\ waste\ eco\ illustration.jpg");
     background-size: cover;
 
 }
 
 .bebes{
-    background-image: linear-gradient(90deg,#74747481,rgba(117, 117, 117, 0.507)),url("../categorias/image/2112.q712.005.F.m009.c5.toy\ store\ composition\ set\ flat.jpg");
+    background-image: linear-gradient(90deg,#74747463,#75757565),url("../categorias/image/2112.q712.005.F.m009.c5.toy\ store\ composition\ set\ flat.jpg");
     background-size: cover;
     background-position: center center;
 
 }
 .mascotas{
-    background-image: linear-gradient(90deg,#74747481,rgba(117, 117, 117, 0.507)),url("../categorias/image/mascotas.jpg");
+    background-image: linear-gradient(90deg,#74747463,#75757565),url("../categorias/image/mascotas.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .bebidas{
-    background-image: linear-gradient(90deg,#74747481,rgba(117, 117, 117, 0.507)),url("../categorias/image/bebivas.jpg");
+    background-image: linear-gradient(90deg,#74747463,#75757565),url("../categorias/image/bebivas.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .cuidado_personal{
-background-image: linear-gradient(90deg,#74747481,rgba(117, 117, 117, 0.507)),url("../categorias/image/cuidadopersonal.jpg");
+background-image: linear-gradient(90deg,#74747463,#75757565),url("../categorias/image/cuidadopersonal.jpg");
 background-size: cover;
 background-position: center center;
 }
 
 .limpieza{
-    background-image: linear-gradient(90deg,#74747481,rgba(117, 117, 117, 0.507)),url("../categorias/image/limpieza.jpg");
+    background-image: linear-gradient(90deg,#74747463,#75757565),url("../categorias/image/limpieza.jpg");
 background-size: cover;
 background-position: center center;
 }
@@ -88,6 +88,8 @@ background-position: center center;
     font-family: sans-serif;
     margin-bottom: 1rem ;
     color: #1aa7f8;
+    padding-bottom:1rem;
+    border-bottom: 2px solid rgb(173, 173, 173);
 }
 .categoria h2{
     padding: 1rem;
