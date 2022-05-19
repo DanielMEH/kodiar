@@ -105,13 +105,14 @@ background-position: center center;
     
     float: right;
     margin-right: 0.20rem;
+  
 }
 
 .link_product a{
     background: #1aa7f8;
     width: 100%;
     display: block;
-    padding: 0.3rem 0.10rem;
+    padding: 0.50rem 0rem;
     text-decoration: none;
     color: white;
     transition: all .2s ease-out;

@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/main.css">
     <script src="https://kit.fontawesome.com/fa98a09714.js" crossorigin="anonymous"></script>
     <title>KODIAR</title>
 </head>
 <body> 
+    <style>
+        .list > li > .cate_active::before{
+    
+    background:var(--color-text);
+    content: "";
+    width: 100%;
+    height: 0.187rem;
+    border-radius: 2rem;
+    bottom: 0;
+    position: absolute;
+    transition: all .2s ease-in;
+   
+ }
+
+    </style>
     <header class="container">
         <div class="container_hero">
             <div class="title">kodiar</div>
@@ -20,9 +34,10 @@
                     <div class="notificacion">
                         <i class="fa-solid fa-bell"></i>
                     </div>
+                    <li ><a class="iventario cate_active" href="index.html" >Inicio</a></li>
                     <li ><a class="iventario" href="">Inventario</a></li>
-                    <li><a href="categorias/categorias.html" class="cate_active">Categorias</a></li>
-                    <li><a href="index.html" class="agre_active">Agregar</a></li>
+                    <li><a href="categorias/categorias.html">Categorias</a></li>
+                    <li><a href="agregarProducts/productos.html" >Agregar</a></li>
                     <li><a href="">Cuenta de Usuario</a></li>
                     <li><a href="">Ajustes</a></li>
                 </ul>
@@ -32,34 +47,7 @@
         </div>
 
     </header>
-    <main class="container_main">
-        <div class="registro_product todora">
-            <h2>Registro de Productos | Minimercados</h2>
 
-            <div class="formularios">
-                <form action="">
-                    <div class="boxs">
-                        <div class="one_box">
-                            <label for="cod_product">Codigo Producto</label>
-                            <input type="text" id="cod_product">
-                        </div>
-                        <div class="two_box">
-                            <label for="stock">Stock</label>
-                            <input type="text" id="stock">
-                        </div>
-                        <div class="three_box">
-                            <label for="categoria">Categoria Producto</label>
-                            <input type="text" id="categoria">
-                        </div>
 
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="crud_product todora">
-            <h2></h2>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, quibusdam quos distinctio praesentium totam sit asperiores nemo vel modi libero exercitationem dolorem similique repellat reiciendis nostrum eum reprehenderit sint?
-        </div>
-    </main>
 </body>
 </html>
