@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 .container_main{
     display: grid;
     grid-template-columns: 450px auto;
@@ -12,4 +16,13 @@
     color: white;
     text-align: center;
     padding: 0.620rem;
+}
+
+.registro_product{
+    border: 1px solid #1aa7f8;
+}
+
+.boxs{
+    display: flex;
+    justify-content: space-between;
 }

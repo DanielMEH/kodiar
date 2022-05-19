@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/main.css">
     <script src="https://kit.fontawesome.com/fa98a09714.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <title>KODIAR</title>
 </head>
 <body> 
@@ -42,18 +42,80 @@
                     <div class="boxs">
                         <div class="one_box">
                             <label for="cod_product">Codigo Producto</label>
-                            <input type="text" id="cod_product">
-                        </div>
-                        <div class="two_box">
-                            <label for="stock">Stock</label>
-                            <input type="text" id="stock">
-                        </div>
+                            <input type="text" id="cod_product"
+                            placeholder="Codigo Producto" />
+                        </div>  
+                       
                         <div class="three_box">
                             <label for="categoria">Categoria Producto</label>
-                            <input type="text" id="categoria">
+                            <select name="" id="">
+                            <option value="1">Categoria A </option>
+                            <option value="2">Categoria B </option>
+                            <option value="3">Categoria C </option>
+                            </select>
                         </div>
 
                     </div>
+                    <div class="registro">
+                        <div class="form_productos">
+                            <div class="name">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre"  placeholder="Nombre">
+                            </div>
+                            <div class="infoprodct">
+                                <div class="infoone">
+                                    <div class="unitit">
+                                        <label for="unidades">Unidades</label>
+                                        <input type="number" id="unidades"  placeholder="Unidades">
+                                    </div>
+                                    <div class="infotwo">
+                                        <div class="shop">
+                                            <label for="pcompra">Precio Compra:</label>
+                                            <input type="number" id="pcompra"  placeholder="Precio">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="infoone">
+                                    <div class="unitit">
+                                        <label for="pventa">Precio Venta:</label>
+                                        <input type="number" id="pventa"  placeholder="Precio Venta">
+                                    </div>
+                                    <div class="infotwo">
+                                        <div class="shop">
+                                            <label for="fvencimiento">Fecha Vencimiento:</label>
+                                            <input type="number" id="fvencimiento" placeholder="Fecha Vencimiento">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="descripcion">
+                        <label for="detalle">Detalle del Producto:
+                            
+                        </label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe la descripción del producto..."></textarea>
+                        </div>
+                        
+                    </div>
+
+                    <div class="register_date">
+                        <div class="add_product">
+                            <button class="blue_botton">
+                                Agregar Producto
+                            </button>
+                        </div>
+                        <div class="canceld">
+                            <button class="red_botton">
+                                Cancelar
+                            </button>
+                        </div>
+                    </div>
+
+                    
                 </form>
             </div>
         </div>
