@@ -41,15 +41,15 @@
                 <form action="">
                     <div class="boxs">
                         <div class="one_box">
-                            <label for="cod_product">Codigo Producto</label>
+                            <label for="cod_product" class="label-select">Codigo Producto:</label>
                             <input type="text" id="cod_product"
-                            placeholder="Codigo Producto" />
+                            placeholder="Codigo Producto" class="input_code" />
                         </div>  
                        
                         <div class="three_box">
-                            <label for="categoria">Categoria Producto</label>
-                            <select name="" id="">
-                            <option value="1">Categoria A </option>
+                            <label for="categoria" class="label-select">Categoria Producto:</label>
+                            <select name="" id="" class="select ">
+                            <option value="1"class="label-select">Categoria A </option>
                             <option value="2">Categoria B </option>
                             <option value="3">Categoria C </option>
                             </select>
@@ -57,36 +57,38 @@
 
                     </div>
                     <div class="registro">
+                        <h3 class="title_product">Registro de   Productos</h3>
                         <div class="form_productos">
                             <div class="name">
-                                <label for="nombre">Nombre:</label>
-                                <input type="text" id="nombre"  placeholder="Nombre">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre"  placeholder="Nombre"
+                                class="input_co input_code"  />
                             </div>
                             <div class="infoprodct">
                                 <div class="infoone">
-                                    <div class="unitit">
-                                        <label for="unidades">Unidades</label>
-                                        <input type="number" id="unidades"  placeholder="Unidades">
+                                    <div class="infotwo">
+                                        <label for="unidades"class="label-select">Unidades</label>
+                                        <input  type="number" id="unidades"  placeholder="Unidades" class="tato input_code"/>
                                     </div>
                                     <div class="infotwo">
-                                        <div class="shop">
-                                            <label for="pcompra">Precio Compra:</label>
-                                            <input type="number" id="pcompra"  placeholder="Precio">
-                                        </div>
+                                
+                                            <label for="pcompra"class="label-select">Precio Compra</label>
+                                            <input type="number" id="pcompra"  placeholder="Precio" class="tato input_code"/>
+                            
                                     </div>
                                     
                                 </div>
 
                                 <div class="infoone">
-                                    <div class="unitit">
-                                        <label for="pventa">Precio Venta:</label>
-                                        <input type="number" id="pventa"  placeholder="Precio Venta">
+                                    <div class="infotwo">
+                                        <label for="pventa"class="label-select">Precio Venta</label>
+                                        <input type="number" id="pventa"  placeholder="Precio Venta"class="tato input_code"/>
                                     </div>
                                     <div class="infotwo">
-                                        <div class="shop">
-                                            <label for="fvencimiento">Fecha Vencimiento:</label>
-                                            <input type="number" id="fvencimiento" placeholder="Fecha Vencimiento">
-                                        </div>
+                                        
+                                            <label for="fvencimiento"class="label-select">Fecha Vencimiento</label>
+                                            <input type="date" id="fvencimiento" placeholder="Fecha Vencimiento" class="tato input_code"/>
+                                        
                                     </div>
                                     
                                 </div>
@@ -94,23 +96,23 @@
                             </div>
                         </div>
                         <div class="descripcion">
-                        <label for="detalle">Detalle del Producto:
+                        <label for="detalle" class="label-select">Detalle del Producto
                             
-                        </label>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe la descripción del producto..."></textarea>
+                        </label >
+                        <textarea class="input_code label-select" name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe la descripción del producto..."></textarea>
                         </div>
                         
                     </div>
 
                     <div class="register_date">
                         <div class="add_product">
-                            <button class="blue_botton">
-                                Agregar Producto
+                            <button class="green_botton">
+                                <i class="fa-solid fa-check"></i> Agregar
                             </button>
                         </div>
                         <div class="canceld">
                             <button class="red_botton">
-                                Cancelar
+                                <i class="fa-solid fa-x"></i> Cancelar
                             </button>
                         </div>
                     </div>
@@ -119,10 +121,10 @@
                 </form>
             </div>
         </div>
-        <div class="crud_product todora">
+        <!-- <div class="crud_product todora">
             <h2></h2>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, quibusdam quos distinctio praesentium totam sit asperiores nemo vel modi libero exercitationem dolorem similique repellat reiciendis nostrum eum reprehenderit sint?
-        </div>
+        </div> -->
     </main>
 </body>
 </html>
