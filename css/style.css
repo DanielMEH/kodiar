@@ -2,6 +2,8 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -118,3 +120,143 @@ body{
     margin: 2px;
    
 }
+.main_container{
+
+    max-width:1300px;
+    border: 1px solid #1aa7f8;
+    background: white;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px .7px rgb(202, 202, 202);
+    margin: 7rem auto;
+    display: grid;
+    grid-template-columns: 700px auto;
+    padding: 2rem 0rem 2rem 3rem;
+
+
+}
+.first_ca{
+    display: inline-block;
+    
+   
+}
+.control-label{
+
+    display:inline-block;
+    margin: 0rem 0rem 0.50rem 0rem;
+}
+.input-type_ca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1aa7f8;
+    border-radius: 0.20rem;
+    -webkit-border-radius: 0.20rem;
+    -moz-border-radius: 0.20rem;
+    -ms-border-radius: 0.20rem;
+    -o-border-radius: 0.20rem;
+}
+.xtline{
+    border: 1px solid #1aa7f8;
+    outline: none;
+    padding:5px;
+    margin: 0.40rem;
+    border-radius: 0.20rem;
+}
+.jxrg{
+
+    border: none;
+    outline: none;
+    padding:4px;
+    width: 250px;
+}
+.input_icon i{
+    display: block;
+    padding:0.40rem;
+    color: rgb(79, 79, 79);
+    border-right: 1px solid rgb(79, 79, 79);
+
+}
+.secon-ca{
+  
+    width: 500px;
+    margin-top: 1rem;
+}
+.inputs_first{
+
+    display: flex;
+    align-items: center
+}
+.peoduc_list_ca{
+
+    display: block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border: 1px solid #929191;
+    border-radius: 3px;
+    box-shadow: inset  0px 0px 2px 0.4px rgb(186, 186, 186) ;
+    position: relative;
+}
+.menu_slist{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center
+}
+.menu_slist >li{
+    list-style: none;
+
+}
+
+.complete_info{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+.pagos_list_ca{
+    width: 100%;
+}
+.total_pago ,.pago, .pago_cambio{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center
+}
+.cancel_pagos_exit{
+
+    display:flex;
+    justify-content:center;
+    gap: 1rem;
+    margin: 2rem 0rem 0rem 0rem;
+}
+.cancel_u{
+    background: red ;
+    border: 1px solid red ;
+    padding: 6px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    font-size: 1.20rem;
+}
+.cancel_u:hover{
+    background: 
+    rgb(217, 46, 46) ;
+}
+.save{
+    background: #0ec344 ;
+    border: 1px solid #0ec344;
+    padding: 6px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1.20rem;
+    transition: 0.2s ease-out;
+}
+.save:hover{
+    background: #0edf4c ;
+}
+    
