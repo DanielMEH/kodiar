@@ -120,18 +120,21 @@ body{
    
 }
 .caja-principal{
-    border: 1px solid #000;
+    border: 1px solid #1aa7f8;
     max-width: 1300px;
     margin: 3rem auto;
     display: grid;
     grid-template-columns: 400px auto;
+    background: #1aa7f8c6;
+    box-shadow: 0px 0px 10px .7px rgb(153, 147, 147);
+    border-radius: 4px;
 }
 .caja2{
     border: 2px solid #1aa7f8;
     background: white;
     border-radius: 7px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px .7px rgb(202, 202, 202);
+    
     margin: 8px;
 }
 .title-perfil{
@@ -152,15 +155,47 @@ body{
     width: 70%;
     text-align: center;
     display: block;
-    
     padding: 4px;
     margin: 0 auto;
-
-    
 }
 .nombre{
     text-align: center;
 }
 .text-datos{
+    padding:20px;
+    text-align:center;
+   
+}
+.text-datos a{
+    text-decoration: none;
+    color:black
+}
+.text-datos:hover{
+    background: #1aa7f8;
+}
+
+.datos2{
+    padding:20px;
+    text-align:center;
+    height: 300px;
+}
+.datos2 a{
+    text-decoration: none;
+    color: black;
+}
+.caja3{
+    border: 2px solid #1aa7f8;
+    background: white;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 8px;
+    padding: 10px
+}
+.info{
+    padding:20px;
+    text-align:center;
+    border-bottom:2px solid #1aa7f8 ;
+    
+    
     
 }
