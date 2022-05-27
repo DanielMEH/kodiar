@@ -177,7 +177,7 @@ body{
 .datos2{
     padding:20px;
     text-align:center;
-    height: 300px;
+   
 }
 .datos2 a{
     text-decoration: none;
@@ -189,13 +189,30 @@ body{
     border-radius: 7px;
     overflow: hidden;
     margin: 8px;
-    padding: 10px
+    padding: 10px;
+  
 }
 .info{
     padding:20px;
     text-align:center;
     border-bottom:2px solid #1aa7f8 ;
-    
-    
-    
+}
+/* .cajas{
+    padding:15px 50px;
+} */
+.nombre-cajas{
+    padding:15px 0px;
+}
+.rrrr{
+    display: flex;
+    justify-content:space-around;
+    margin:40px
+
+}
+.caja-des{
+    width:300px;
+    height:150px
+}
+.nombre-des{
+    padding:15px 0px;
 }
